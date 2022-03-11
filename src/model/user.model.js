@@ -29,6 +29,6 @@ const User = seq.define(
     }
 );
  
-User.sync({ force: true }); //force:true 数据库存在User_tables表则强制删除原表，新建
+// User.sync({ force: true }); //force:true 数据库存在User_tables表则强制删除原表，新建
  
 module.exports = User
